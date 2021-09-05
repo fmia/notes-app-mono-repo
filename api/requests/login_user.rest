@@ -1,0 +1,9 @@
+POST http://127.0.0.1:3001/api/login
+Content-Type: application/json
+
+{
+    "username": "fmia",
+    "password": "entrar1234"
+}
+
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxMWZiMTlmYjEzMzg0MjMwYzIzYTI2YiIsInVzZXJuYW1lIjoiZm1pYSIsImlhdCI6MTYyOTQ5NjExNCwiZXhwIjoxNjMwMTAwOTE0fQ.I40YBdUCPOsBlvmR1zMoUHpaQnMrghLfh9CqLZq4vzk

@@ -1,0 +1,8 @@
+PUT http://127.0.0.1:3001/api/notes/611fb1c7b13384230c23a26c
+Content-Type: application/json
+
+{
+    "content": "Nota actualizada otra vezzz",
+    "important": true,
+    "userId": "611fb19fb13384230c23a26b"
+}

@@ -1,0 +1,12 @@
+POST http://127.0.0.1:3001/api/notes 
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxMWZiMTlmYjEzMzg0MjMwYzIzYTI2YiIsInVzZXJuYW1lIjoiZm1pYSIsImlhdCI6MTYyOTQ5NjExNCwiZXhwIjoxNjMwMTAwOTE0fQ.I40YBdUCPOsBlvmR1zMoUHpaQnMrghLfh9CqLZq4vzk
+
+{
+    "content": "Utilizando el middleware",
+    "important": true
+}
+
+###
+POST http://127.0.0.1:3001/api/notes 
+Content-Type: application/json

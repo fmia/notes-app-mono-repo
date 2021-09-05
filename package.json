@@ -7,11 +7,14 @@
     "api",
     "app"
   ],
+  "engines": {
+    "npm": "7.22.0"
+  },
   "main": "index.js",
   "scripts": {
-    "build": "cross-env npm run build --workspace=app",
-    "start": "cross-env npm run --workspace=api",
-    "dev:api": "cross-env npm run build && npm run dev --workspace=api"
+    "build": " SKIP_PREFLIGHT_CHECK=true npm run build --workspace=app",
+    "start": "npm run --workspace=api",
+    "dev:api": "npm run build && npm run dev --workspace=api"
   },
   "eslintConfig": {
     "extends": "./node_modules/standard/eslintrc.json",
